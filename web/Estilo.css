@@ -1,7 +1,7 @@
 
 #flex-container{
     display: flex;
-    background-color: aquamarine;
+    background-color: whitesmoke;
     justify-content: center;
     align-items: center; 
     margin: 0;
@@ -13,9 +13,9 @@
     width: 350px;
     height: 350px;     
     border-style: solid;
-    border-width: 6px;
-    border-bottom-color:  black;  
-    box-shadow: 3px;
+    border-width: 3px;
+    box-shadow: 20px 20px;
+    border-radius: 50px;
 }
 
 .Botao{
@@ -30,13 +30,12 @@
     font-weight: bold;
     color:white;
     font-family:  Roboto 14px, sans-serif;  
-    border-radius: 30px;
-
+    border-radius: 30px;     
 }
 
 img{
 overflow-clip-margin: content-box ;
-text-align: center;
+   text-align: center;
 }
 
 label{
@@ -57,10 +56,9 @@ margin-left: 0;
 .icone{
     text-align: center;
 }
+
 .formulario{
     text-align: center;
 }
-
-
 
 
